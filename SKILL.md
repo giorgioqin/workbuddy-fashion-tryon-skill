@@ -13,13 +13,15 @@ examples_en:
   - Plan an ecommerce try-on image from this jacket photo, but do not generate it yet.
   - Check whether this try-on image changed the garment's shape or color.
   - Suggest styling and prepare an image prompt for this knit top.
-version: 0.1.0
+version: 0.1.1
 author: giorgioqin
 ---
 
 # 商品服装换装图策划与质检
 
 Use this skill when planning, prompting, generating, or reviewing ecommerce fashion try-on images. Treat the garment reference as the source of truth.
+
+Load the relevant supporting instructions for each stage: `@references/workflow.md`, `@references/prompt-template.md`, and `@references/quality-checklist.md`. Read the workflow at intake, the prompt template before writing a generation prompt, and the quality checklist when reviewing an image.
 
 ## Workflow
 
