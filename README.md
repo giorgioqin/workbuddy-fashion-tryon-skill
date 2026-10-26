@@ -16,11 +16,11 @@
 ## 安装
 
 1. 下载或克隆本仓库。
-2. 将仓库根目录打包为 ZIP，确保 ZIP 内有 `SKILL.md` 和 `references/`。
+2. 将仓库目录打包为 ZIP，保留 `workbuddy-fashion-tryon-skill/` 这一层目录；解压后应看到 `workbuddy-fashion-tryon-skill/SKILL.md` 和 `workbuddy-fashion-tryon-skill/references/`。
 3. 在 WorkBuddy 打开「专家·技能·连接器」→「添加技能」→「上传技能」，选择该 ZIP。
 4. 在本地对话里用 README 中的示例试用。先用虚构描述或获准使用的素材，不要把客户图片提交到公开仓库。
 
-WorkBuddy 的创建入口也可以根据 `SKILL.md` 创建同名技能。若平台字段或目录校验发生变化，以 WorkBuddy 开放平台当前文档为准。
+WorkBuddy 的创建入口也可以根据 `SKILL.md` 创建同名技能。补充资料通过 `@references/...` 路径引用。若平台字段或目录校验发生变化，以 WorkBuddy 开放平台当前文档为准。
 
 ## 使用示例
 
